@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://annabramarova.github.io/goit-react-hw-04-images",
+  "homepage": "https://annabramarova.github.io/goit-react-hw-04-images/",
   "dependencies": {
     "@emotion/styled": "^11.10.5",
     "@react-icons/all-files": "^4.1.0",
