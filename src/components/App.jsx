@@ -16,6 +16,9 @@ export const App = () => {
   const [status, setStatus] = useState('init');
   
   useEffect(() => {
+    if (!query) {
+      return;
+    }
     setStatus('loading');
 
     fetchImages(query, page)
@@ -40,7 +43,7 @@ export const App = () => {
   };
 
 
-  const handleLoadMore = () => {    
+  const handleLoadMore = () => {
     setPage(prevPage => prevPage + 1);
   };
 
@@ -62,3 +65,4 @@ export const App = () => {
       </div>
     );
 };
+
